@@ -18,4 +18,9 @@
 
 
 # RoForge
-RoForge is a Luau library that is aims to emulate a Roblox API and executor environment in **[Lune](https://lune-org.github.io/docs/)**
+RoForge is a Luau library that is aims to emulate a Roblox API and executor environment in **[Lune](https://lune-org.github.io/docs/)** with **[Lute](https://lute.luau.org/)**
+
+# Dependencies
+
+- Lune >= 0.10.4
+- Lute >= 0.1.0
