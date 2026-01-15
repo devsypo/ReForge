@@ -24,5 +24,5 @@ https://discord.gg/Jvmby7HDZ9
 
 # Dependencies
 
-- Lune >= 0.10.4
-- Lute >= 0.1.0
+- Lune >= [0.10.9](https://github.com/yanlvl99/lune-custom-build)
+- Lute >= [0.1.0](https://github.com/luau-lang/lute/releases/tag/0.1.0-nightly.20251115)
