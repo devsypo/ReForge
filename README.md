@@ -12,7 +12,7 @@
 <br/>
 
 ![version](https://img.shields.io/badge/version-pre--alpha--0.1-red?style=flat-square)
-![license](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+[![License](https://img.shields.io/github/license/devsypo/ReForge?style=flat-square&color=E168FF)](LICENSE)
 ![status](https://img.shields.io/badge/status-in--development-yellow?style=flat-square)
 ![Total Views](https://visitor-badge.laobi.icu/badge?page_id=Sypeo.Reforge)
 
