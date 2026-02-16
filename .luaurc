@@ -1,0 +1,20 @@
+{
+  "globals": [
+    "warn"
+  ],
+  "aliases": {
+    "tests": "./source/tests",
+    "dependency": "./source/dependency",
+    "cache": "./source/.cache",
+    
+    "base": "./source/environment/base",
+    "exploit": "./source/environment/exploit",
+    "roblox": "./source/environment/roblox",
+    "instr": "./source/environment/instrument",
+    
+    "rlibrary": "./source/environment/exploit/library",
+    
+    "datatype": "./source/environment/roblox/datatypes",
+    "env": "./source/environment"
+  }
+}
