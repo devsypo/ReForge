@@ -24,5 +24,16 @@ https://discord.gg/Jvmby7HDZ9
 
 # Dependencies
 
-- Lune >= [0.10.9](https://github.com/yanlvl99/lune-custom-build)
+- c/Lune >= [0.10.9](https://github.com/yanlvl99/lune-custom-build) or [0.10.4](https://lune-org.github.io/docs)
 - Lute >= [0.1.0@2025-1115](https://github.com/luau-lang/lute/releases/tag/0.1.0-nightly.20251115)
+
+## Usage
+1. Update or setup the Roblox API dump.
+```bash
+lune run source/setup
+```
+
+2. Executing scripts. This will search for input.luau
+```bash
+lune run source
+```
