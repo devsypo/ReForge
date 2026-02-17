@@ -2,7 +2,11 @@ return {
   CallStack = { Stack = {}, Level = 0 },
   CallHooks = {},
   FuncStack = {},
+  FuncNames = {},
+  CloneMap = {},
+  
   Script = { Functions = {}, Tables = {}, Userdatas = {} },
+  
   Environment = {},
   FunctionEnv = {},
   DataModel = {},

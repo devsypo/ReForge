@@ -61,7 +61,9 @@ local function Main(): any
   
   _ENV = Environment
   
-  setfenv(FN, Environment)()
+  setfenv(FN, Environment)
+  
+  FN()
 end
 
 return Main()

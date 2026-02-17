@@ -92,7 +92,7 @@ local function createManager(Path: string?): PublicNamespace
       elseif type(Value) == "function" then
         local FullPath: string = Path ~= "" and (Path .. "." .. Key) or Key
         
-        local Call: any = function(...)
+        local Call: any = setfenv(function(...)
           local Prev = CurrentFunc
           CurrentFunc = FullPath
           
@@ -100,9 +100,10 @@ local function createManager(Path: string?): PublicNamespace
           
           CurrentFunc = Prev
           return unpack(Result)
-        end
+        end, {})
         
-        Out[Key] = setfenv(Call, {})
+        Internal.FuncNames[Call] = Key
+        Out[Key] = Call
       else
         Out[Key] = Value
       end
